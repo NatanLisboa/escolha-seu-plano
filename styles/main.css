@@ -5,7 +5,8 @@ body {
     justify-content: center;
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* background-color: #0C0F14; */ /* Page background color (to be applied later) */
+    background-color: #0C0F14;
+    color: white;
 }
 
 .page-header {
@@ -17,7 +18,6 @@ body {
 }
 
 .page-header__logo {
-    color: white;
     text-transform: uppercase;
     font-size: 32px;
     letter-spacing: 1px;
@@ -32,7 +32,7 @@ body {
 
 .page-header__navigation-menu-list-item a {
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
 .page-header__navigation-menu-list-item.active a {
@@ -40,5 +40,11 @@ body {
     padding: 15px;
     border-radius: 5px;
     color: black;
+}
+
+.main-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 86px;
 }
 
