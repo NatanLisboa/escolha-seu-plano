@@ -1,12 +1,12 @@
 body {
     display: flex;
     flex-direction: column;
-    max-width: 960px;
+    max-width: 980px;
     justify-content: center;
     margin: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0C0F14;
     color: white;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .page-header {
@@ -48,3 +48,74 @@ body {
     font-size: 86px;
 }
 
+.hiring-plans {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hiring-plans__plan {
+    display: flex;
+    flex-direction: column;
+    flex: 310px;
+    background-color: #20262B;
+    padding: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.hiring-plans__plan-name {
+    margin: 0;
+}
+
+.hiring-plans__plan hr {
+    border: 1px solid #CEE400;
+    width: 100%;
+}
+
+.hiring-plans__plan-features {
+    padding: 0;
+    list-style-position: inside;
+    flex: 1;
+}
+
+.hiring-plans__plan-features li::marker {
+    color: #CEE400;
+}
+
+.hiring-plans__plan-name {
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+
+.hiring-plans__plan-features abbr {
+    text-decoration: none;
+}
+
+.hiring-plans__subscription-link {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #CEE400;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.25s all;
+}
+
+.hiring-plans__subscription-link:hover {
+    outline: 2px solid #CEE400;
+    background-color: #20262B;
+    color: white;
+}
+
+.hiring-plans__plan-price {
+    font-size: 48px;
+}
